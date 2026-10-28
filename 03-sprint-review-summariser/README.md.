@@ -1,0 +1,7 @@
+# Sprint Review Summariser
+
+Built in Microsoft Copilot Studio. Ask the agent to summarise a sprint, and it pulls the sprint's work items from Jira through the Jira REST API (GET) and writes a stakeholder-ready sprint review summary.
+
+**Stack:** Microsoft Copilot Studio, Jira REST API (GET)
+
+![Sprint summary from the agent](sprint-summary.png)
