@@ -11,6 +11,7 @@ AI agents that do business analysis work: turning requirements into Jira backlog
 | 3 | [Sprint Review Summariser](03-sprint-review-summariser) | Copilot Studio, Jira GET API | Pulls sprint data from Jira and writes a stakeholder-ready sprint review summary. |
 | 4 | [BA Dashboard](04-ba-dashboard) | Power BI, Jira GET API | Jira delivery metrics published to Power BI Service. |
 | 5 | Requirements Tracker (in progress) | Power Apps | Requirements tracking app that extends the intake agent. |
+| 6 | [Project Planner Agent](06-project-planner-agent) | n8n, GPT-4.1, Google Sheets, Jira | Turns project briefs in a Google Sheet into Epics and user stories in Jira |
 
 ## About me
 
