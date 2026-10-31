@@ -53,9 +53,9 @@ I ran the flow once with a synthetic requirement and approved it.
 
 | Check | Result |
 |---|---|
-| Approval request received | Yes ([approval card](images/approval-card.png)) |
-| Jira issue created after approval | Yes, MC-20 ([screenshot](images/jira-mc-20.png)) |
-| Audit row written | Yes: Decision `Approved`, JiraKey `MC-20` ([screenshot](images/audit-row.png)) |
+| Approval request received | Yes ([approval card](Imagesapproval-card.png)) |
+| Jira issue created after approval | Yes, MC-20 ([screenshot](Imagesjira-mc-20.png)) |
+| Audit row written | Yes: Decision `Approved`, JiraKey `MC-20` ([screenshot](Imagesaudit-row.png)) |
 | Reject branch | Built, **not yet tested** |
 
 ## Stack
