@@ -49,14 +49,14 @@ Built as a Copilot Studio agent flow with these steps:
 
 ### Test run (synthetic requirement)
 
-I ran the flow once with a synthetic requirement and approved it.
+I ran the flow twice with synthetic requirements: once approved, once rejected.
 
 | Check | Result |
 |---|---|
-| Approval request received | Yes ([approval card](Images/approval-card.png)) |
+| Approval request received | Yes ([approval card](Images/reject-card.png)) |
 | Jira issue created after approval | Yes, MC-20 ([screenshot](Images/jira-mc-20.png)) |
 | Audit row written | Yes: Decision `Approved`, JiraKey `MC-20` ([screenshot](Images/audit-row.png)) |
-| Reject branch | Built, **not yet tested** |
+| Reject branch | Tested: Decision Rejected, JiraKey empty, no Jira issue created ([screenshot](Images/audit-log-both-rows.png)) |
 
 ## Stack
 
@@ -66,7 +66,6 @@ Microsoft Copilot Studio, Power Automate (agent flow, Approvals), Dataverse, Jir
 
 - **The agent is not yet wired to the flow as a tool.** The flow runs and was tested on its own, but the agent's tool picker did not list it, so the agent does not call it yet. This is the next step.
 - **The Respond step waits for a human.** An agent caller times out after about two minutes, so for agent use the flow should reply "sent for approval" straight away and continue in the background. Not yet changed.
-- The **Reject** branch has not been run.
-- The approval card's Details field runs the lines together, because line breaks and labels were not added.
+- The approval card's Details field shows each item on its own line but without labels
 - Synthetic data only. No real customer or patient data.
 - Jira credentials are held in the flow and are not included in this repository.
