@@ -4,13 +4,13 @@ A BPMN-style view of how stakeholder input becomes a Jira backlog item, before a
 
 ## As-Is: manual
 
-![As-Is process](Imagesprocess-as-is.png)
+![As-Is process](Images/process-as-is.png)
 
 The BA reads the input, writes the stories by hand, chases stakeholders about gaps and conflicts, then enters the stories in Jira. Gaps are found late, and the quality of the stories depends on how much time the BA has.
 
 ## To-Be: agent drafts, BA approves
 
-![To-Be process](Imagesprocess-to-be.png)
+![To-Be process](Images/process-to-be.png)
 
 1. The agent splits the input into one draft story per requirement.
 2. It marks missing detail as `[TO CONFIRM]` and raises conflicts as questions. It does not invent numbers, systems or rules.
