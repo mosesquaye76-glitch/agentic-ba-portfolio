@@ -1,6 +1,6 @@
 # Agentic BA Portfolio
 
-AI agents that do business analysis work: turning requirements into Jira backlogs, summarising sprints, and tracking delivery. Built by Moses Quaye, Business Analyst, using n8n, Microsoft Copilot Studio, Power Automate, Power BI, and the Jira REST API. Every project is built against a real Jira project.
+AI agents that do business analysis work: turning requirements into Jira backlogs, summarising sprints, and tracking delivery. Built by Moses Quaye, Business Analyst, using n8n, Microsoft Copilot Studio, Power Automate, Power BI, and the Jira REST API. Most projects are built against a real Jira project.
 
 ## Projects
 
@@ -12,6 +12,7 @@ AI agents that do business analysis work: turning requirements into Jira backlog
 | 4 | [BA Dashboard](04-ba-dashboard) | Power BI, Jira GET API | Jira delivery metrics published to Power BI Service. |
 | 5 | [Backlog Agent with Approval and Audit Log](05-copilot-requirements-agent) | Copilot Studio, Power Automate, Dataverse, Jira | Drafts user stories from stakeholder input, with human approval, an audit log, and a measured evaluation. |
 | 6 | [Project Planner Agent](06-project-planner-agent) | n8n, GPT-4.1, Google Sheets, Jira | Turns project briefs in a Google Sheet into Epics and user stories in Jira |
+| 7 | [Power BI Sales Dashboard](07-power-bi-sales-dashboard/) | Power BI, DAX, Adventure Works sample data | Two-page sales and returns report: revenue, orders and returns against goals, a price what-if control and weekly profit trend. |
 
 ## About me
 
