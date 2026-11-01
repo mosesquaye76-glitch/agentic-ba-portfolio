@@ -1,0 +1,34 @@
+# Sales and Returns Dashboard (Power BI)
+
+A two-page Power BI report on Adventure Works Cycles sample data (Microsoft's practice dataset, not real company data). I built it about two years ago. It is the BI side of my portfolio: the same habit of turning raw data into something a business owner can act on.
+
+## What it shows
+
+**Page 1: Product Details**
+- Monthly revenue, monthly orders, and monthly returns as headline numbers, each against a goal.
+- Top product by orders and top product by profit.
+- Total orders by product category (treemap) and by subcategory (bar chart).
+- A region and product table with total orders and return rate.
+- A map of orders, profit, and revenue by country.
+- A date range slider and a continent filter that change every visual on the page.
+
+**Page 2: Executive Summary**
+- Total orders against the order target (gauge).
+- Weekly profit with a trend line and forecast.
+- A price adjustment (%) input. Changing it shows adjusted price and adjusted profit next to the actual figures, so a manager can ask, "What if we changed prices?"
+- Return volume by week, to spot spikes.
+
+## Data model
+
+Sales, returns, customer, product, product category, product subcategory, territory, and calendar tables, with a separate price adjustment parameter table.
+
+## Screenshots
+
+![Product Details](Images/product-details.png)
+![Executive Summary](Images/executive-summary.png)
+
+## Limitations
+
+- Sample data. Figures are for practice and do not describe a real business.
+- Date range in the screenshots is 1 Jan to 26 Oct 2016.
+- Built with Power BI Desktop. The `.pbix` file is included so you can open it and look at the model and measures.
